@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Egg Control </title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+	<nav class="light-blue lighten-1" role="navigation">
+		<div class="nav-wrapper container">
+			<ul class="left hide-on-med-and-down">
+				<li><%= user.userName %><li>
+			</ul>
+		<ul class="right hide-on-med-and-down">
+                <li><a href="http://localhost:3000/home">Home Page</a></li>
+                <li><a href="http://localhost:3000/addEggs">Add Eggs</a></li>
+                <li><a href="http://localhost:3000/removeEggs">Remove Eggs</a></li>
+                <li><a href="http://localhost:3000/placeOrder">Place Order</a></li>
+                <li><a href="http://localhost:3000/admin">Admin</a></li>
+				<li><a href="http://localhost:3000/createCustomer">Create Account</a></li>
+				<li><a href="http://localhost:3000/login">Login</a></li>
+				<li><a href="http://localhost:3000/logout">Logout</a></li>
+          </ul>
+
+		  <ul id="nav-mobile" class="sidenav">
+				<li><a href="http://localhost:3000/home">Home Page</a></li>
+                <li><a href="http://localhost:3000/addEggs">Add Eggs</a></li>
+                <li><a href="http://localhost:3000/removeEggs">Remove Eggs</a></li>
+                <li><a href="http://localhost:3000/placeOrder">Place Order</a></li>
+                <li><a href="http://localhost:3000/admin">Admin</a></li>
+				<li><a href="http://localhost:3000/createCustomer">Create Account</a></li>
+				<li><a href="http://localhost:3000/login">Login</a></li>
+				<li><a href="http://localhost:3000/logout">Logout</a></li>
+		  </ul>
+		  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Egg Control</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Your One Stop Organizer For Up And Coming Hobby Farmers</h5>
+        <br>
+        <h5 class="header col s12 light">AKA Appa and Amma</h5>
+        <br>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+      <br><br>  
+    </div>
+  </div>
+
+    <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Nathan's Verdict</h5>
+          <p class="grey-text text-lighten-4"> I just used this random CSS package from Materialize because I'm more focused on learning php right now</p>
+        </div>
+      </div>
+    </div>
+      <div class="container">
+      Made by Nathan Kuruvilla
+	  <br><br>
+      </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
